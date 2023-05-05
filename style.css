@@ -114,9 +114,8 @@
     }
 
     .all-content .b-museum:hover img , .bread:hover img, .potrait:hover img, .painting:hover img{
-        perspective-origin: center;
         transform: scale(1.05);
-        background-position: center;
+        overflow: hidden;
     }
 
     .b-museum .foot, .bread .foot, .painting .foot, .potrait .foot,.painting .foot{
@@ -406,11 +405,13 @@
         height:580px;
         background-position: center;
     }
-    .all-content .b-museum img:hover , .bread img:hover, .potrait img:hover, .painting img:hover{
-    
+
+    .all-content .b-museum:hover img , .bread:hover img, .potrait:hover img, .painting:hover img{
         transform: scale(1.05);
         background-position: center;
+        overflow: hidden;
     }
+
     .b-museum .foot, .bread .foot, .painting .foot, .potrait .foot,.painting .foot{
         display: flex;
         justify-content: space-between;
@@ -698,11 +699,14 @@
         height:580px;
         background-position: center;
     }
-    .all-content .b-museum img:hover , .bread img:hover, .potrait img:hover, .painting img:hover{
-    
+
+    .all-content .b-museum:hover img , .bread:hover img, .potrait:hover img, .painting:hover img{
+        perspective-origin: center;
         transform: scale(1.05);
         background-position: center;
+        overflow: hidden;
     }
+
     .b-museum .foot, .bread .foot, .painting .foot, .potrait .foot,.painting .foot{
         display: flex;
         justify-content: space-between;
@@ -990,11 +994,12 @@
         height:580px;
         background-position: center;
     }
-    .all-content .b-museum img:hover , .bread img:hover, .potrait img:hover, .painting img:hover{
-    
+
+    .all-content .b-museum:hover img , .bread:hover img, .potrait:hover img, .painting:hover img{   
         transform: scale(1.05);
-        background-position: center;
+        overflow: hidden;
     }
+
     .b-museum .foot, .bread .foot, .painting .foot, .potrait .foot,.painting .foot{
         display: flex;
         justify-content: space-between;
